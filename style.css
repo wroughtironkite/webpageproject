@@ -66,6 +66,15 @@ a {
     color: #E5E7EB;
     border: none;
     border-radius: 8px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: fit-content;
+}
+
+.headerboxleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .headerboxright {
