@@ -98,6 +98,8 @@ a {
 .contentboxcontainer {
     display: flex;
     justify-content: space-between;
+    padding-left: 42px;
+    padding-right: 42px;
 }
 
 .contentbox {
