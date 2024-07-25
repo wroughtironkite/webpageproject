@@ -1,5 +1,6 @@
 body {
     font-family: system-ui, sans-serif;
+    margin: 0;
 }
 
 .header {
@@ -68,7 +69,6 @@ a {
     border-radius: 8px;
     flex-grow: 0;
     flex-shrink: 0;
-    font-family: Helvetica, sans-serif;
     min-width: fit-content;
     max-width: fit-content;
 }
@@ -85,15 +85,95 @@ a {
 }
 
 .content {
+    text-align: center;
+}
 
+.contenttitle {
+    font-size: 36px;
+    font-weight: 900;
+    color: 1F2937;
+    padding: 32px;
+}
+
+.contentboxcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentbox {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-width: 200px;
 }
 
 .quotebox {
+    background-color:lightgray;
+    padding: 66px;
+}
 
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quoter {
+    margin-top: 8px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bigbutton {
+    margin: 66px;
+    padding: 18px 99px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottombutton {
+    padding: 8px;
+    margin: 16px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 2px solid white;
+    border-radius: 8px;
+    max-height: fit-content;
+    min-height: fit-content;
+}
+
+.bigbuttonleft {
+    display: flex;
+    padding-right: 22px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bigbuttonbigtext {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.bigbuttonlittletext {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 22px;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
